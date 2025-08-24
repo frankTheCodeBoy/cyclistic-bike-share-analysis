@@ -4,11 +4,11 @@
 
 ## 📘 Project Description
 
-![Project Status](https://img.shields.io/badge/status-complete-brightgreen)
-![Power BI](https://img.shields.io/badge/tool-Power%20BI-yellow)
-![Google Certificate](https://img.shields.io/badge/Google%20Data%20Analytics-Capstone-blue)
-![License](https://img.shields.io/badge/license-Educational%20Use-lightgrey)
-![Made with Markdown](https://img.shields.io/badge/documentation-Markdown-blueviolet)
+[![Project Status](https://img.shields.io/badge/status-complete-brightgreen)](https://github.com/frankTheCodeBoy/cyclistic-bike-share-analysis/)
+[![Power BI](https://img.shields.io/badge/tool-Power%20BI-yellow)](https://powerbi.microsoft.com/)
+[![Google Certificate](https://img.shields.io/badge/Google%20Data%20Analytics-Capstone-blue)](https://www.coursera.org/professional-certificates/google-data-analytics)
+[![Made with Markdown](https://img.shields.io/badge/documentation-Markdown-blueviolet)](https://www.markdownguide.org/)
+
 
 This capstone project is the culmination of the **Google Data Analytics Professional Certificate**, completed by Francis Olum. It explores how casual riders and annual members use Cyclistic’s bike-share service differently, with the goal of converting casual riders into loyal annual members.
 
