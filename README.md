@@ -1,3 +1,5 @@
+![Cyclistic Bike-Share Analysis Banner](banner.png)
+
 # 🚴 Cyclistic Bike-Share Analysis — Google Data Analytics Capstone
 
 ## 📘 Project Description
