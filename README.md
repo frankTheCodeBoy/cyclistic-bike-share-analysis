@@ -1,6 +1,6 @@
-![Cyclistic Bike-Share Analysis Banner](banner-image.png)
-
 # 🚴 Cyclistic Bike-Share Analysis — Google Data Analytics Capstone
+
+![Cyclistic Bike-Share Analysis Banner](banner-image.png)
 
 ## 📘 Project Description
 
@@ -31,7 +31,7 @@ Cyclistic’s marketing team wants to understand rider behavior to design campai
 
 ## 📁 Repository Structure
 
-📂 Cyclistic-Capstone/
+Cyclistic-Capstone/
 ├── ASK.md
 ├── PREPARE.md
 ├── PROCESS.md
