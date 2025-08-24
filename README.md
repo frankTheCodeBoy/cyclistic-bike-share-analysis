@@ -1,4 +1,4 @@
-![Cyclistic Bike-Share Analysis Banner](banner.png)
+![Cyclistic Bike-Share Analysis Banner](banner-image.png)
 
 # 🚴 Cyclistic Bike-Share Analysis — Google Data Analytics Capstone
 
@@ -55,7 +55,7 @@ Cyclistic’s marketing team wants to understand rider behavior to design campai
 
 ## 📈 Dashboard Preview
 
-> ![Dashboard Preview](screenshots/dashboard.png)
+> ![Dashboard Preview](screenshots/cyclistic-dashboard.png)
 
 ---
 
