@@ -24,13 +24,13 @@ Cyclistic’s marketing team wants to understand rider behavior to design campai
 - **Microsoft Excel with Power Query** (data cleaning & transformation)
 - **Markdown** (modular documentation)
 - **PDF Report** (visual summary)
-- **Coursera Google Data Analytics Certificate**  
+- **Google Data Analytics Professional Certificate**  
   [Verify Credential](https://coursera.org/verify/professional-cert/SLZ7ERDFU7TL)
 
 ---
 
 ## 📁 Repository Structure
-
+```
 Cyclistic-Capstone/
 ├── ASK.md
 ├── PREPARE.md
@@ -40,7 +40,7 @@ Cyclistic-Capstone/
 ├── ACT.md
 ├── Cyclistic_Report_Visuals.pdf
 ├── README.md
-
+```
 ---
 
 ## 📊 Key Findings
@@ -72,7 +72,7 @@ Cyclistic-Capstone/
 ## 📬 Author
 
 **Francis Olum**  
-Creative full-stack developer | Business analytics practitioner  
+Creative full-stack developer | data analytics practitioner  
 📍 Nairobi, Kenya  
 🔗 📧 [Email](olumfrank48@gmail.com)
 
