@@ -100,7 +100,7 @@ No proprietary or confidential information is included.
 
 For deeper insight into how slicers and filters shape the dashboard experience, see:
 
-👉 [`slicer-and-filters-guide.md`](slicer-and-filters-guide.md) — *A modular walkthrough of slicer logic, filter propagation, and best practices for interactivity.*
+👉 [`slicer-and-filters-guide.md`](docs/slicer-and-filters-guide.md) — *A modular walkthrough of slicer logic, filter propagation, and best practices for interactivity.*
 
 ---
 
