@@ -1,3 +1,5 @@
+<!-- Cyclistic README Preview — Updated with _MetaMeasures and Slicer Guide -->
+
 # 🚴 Cyclistic Bike-Share Analysis — Google Data Analytics Capstone
 
 ![Cyclistic Bike-Share Analysis Banner](banner-image.png)
@@ -8,6 +10,7 @@
 [![Power BI](https://img.shields.io/badge/tool-Power%20BI-yellow)](https://powerbi.microsoft.com/)
 [![Google Certificate](https://img.shields.io/badge/Google%20Data%20Analytics-Capstone-blue)](https://www.coursera.org/professional-certificates/google-data-analytics)
 [![Made with Markdown](https://img.shields.io/badge/documentation-Markdown-blueviolet)](https://www.markdownguide.org/)
+[![MetaMeasures](https://img.shields.io/badge/DAX-_MetaMeasures%20Setup-purple)](https://github.com/frankTheCodeBoy/cyclistic-bike-share-analysis#-dynamic-chart-titles-with-_metameasures)
 
 This capstone project is the culmination of the **Google Data Analytics Professional Certificate**, completed by Francis Olum. It explores how casual riders and annual members use Cyclistic’s bike-share service differently, with the goal of converting casual riders into loyal annual members.
 
@@ -97,7 +100,7 @@ No proprietary or confidential information is included.
 
 For deeper insight into how slicers and filters shape the dashboard experience, see:
 
-👉 [`slicer-and-filters-guide.md`](docs/slicer-and-filters-guide.md) — *A modular walkthrough of slicer logic, filter propagation, and best practices for interactivity.*
+👉 [`slicer-and-filters-guide.md`](slicer-and-filters-guide.md) — *A modular walkthrough of slicer logic, filter propagation, and best practices for interactivity.*
 
 ---
 
@@ -105,16 +108,13 @@ For deeper insight into how slicers and filters shape the dashboard experience, 
 
 [![DAX Titles](https://img.shields.io/badge/DAX-dynamic%20titles-orange)](https://dax.guide/)
 
-To improve clarity and interactivity, this dashboard uses dynamic chart titles powered by reusable DAX measures stored in a metadata table called `_MetaMeasures`.
-
-Each measure reflects slicer selections such as:
-
-- `rideable_type`
-- `day_of_week`
-- `StartHour`
-- `member_casual`
-
-These measures are displayed using **Card visuals** above each chart.
+> 📊 **Dynamic Chart Titles Powered by `_MetaMeasures`**  
+> Modular DAX logic that adapts to slicer selections:
+> - Rideable Type  
+> - Day of Week  
+> - Start Hour  
+> - Member vs Casual  
+> Displayed via Card visuals for clarity and interactivity.
 
 ### 🧪 Example Measure
 
