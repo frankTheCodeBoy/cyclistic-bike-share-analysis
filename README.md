@@ -1,8 +1,16 @@
+<!-- Cyclistic README Preview — Updated with _MetaMeasures and Slicer Guide -->
+
 # 🚴 Cyclistic Bike-Share Analysis — Google Data Analytics Capstone
 
 ![Cyclistic Bike-Share Analysis Banner](banner-image.png)
 
 ## 📘 Project Description
+
+[![Project Status](https://img.shields.io/badge/status-complete-brightgreen)](https://github.com/frankTheCodeBoy/cyclistic-bike-share-analysis/)
+[![Power BI](https://img.shields.io/badge/tool-Power%20BI-yellow)](https://powerbi.microsoft.com/)
+[![Google Certificate](https://img.shields.io/badge/Google%20Data%20Analytics-Capstone-blue)](https://www.coursera.org/professional-certificates/google-data-analytics)
+[![Made with Markdown](https://img.shields.io/badge/documentation-Markdown-blueviolet)](https://www.markdownguide.org/)
+[![MetaMeasures](https://img.shields.io/badge/DAX-_MetaMeasures%20Setup-purple)](https://github.com/frankTheCodeBoy/cyclistic-bike-share-analysis#-dynamic-chart-titles-with-_metameasures)
 
 This capstone project is the culmination of the **Google Data Analytics Professional Certificate**, completed by Francis Olum. It explores how casual riders and annual members use Cyclistic’s bike-share service differently, with the goal of converting casual riders into loyal annual members.
 
@@ -74,7 +82,7 @@ Cyclistic-Capstone/
 **Francis Olum**  
 Creative full-stack developer | data analytics practitioner  
 📍 Nairobi, Kenya  
-🔗 📧 [Email](olumfrank48@gmail.com)
+🔗 📧 [olumfrank48@gmail.com](mailto:olumfrank48@gmail.com)
 
 ---
 
@@ -83,5 +91,45 @@ Creative full-stack developer | data analytics practitioner
 This project is licensed for educational and portfolio use.  
 All data used is publicly available and anonymized.  
 No proprietary or confidential information is included.
+
+---
+
+## 📚 Additional Resources
+
+[![Slicer Guide](https://img.shields.io/badge/guide-slicers%20%26%20filters-blue)](slicer-and-filters-guide.md)
+
+For deeper insight into how slicers and filters shape the dashboard experience, see:
+
+👉 [`slicer-and-filters-guide.md`](docs/slicer-and-filters-guide.md) — *A modular walkthrough of slicer logic, filter propagation, and best practices for interactivity.*
+
+---
+
+## 🧩 Dynamic Chart Titles with `_MetaMeasures`
+
+[![DAX Titles](https://img.shields.io/badge/DAX-dynamic%20titles-orange)](https://dax.guide/)
+
+> 📊 **Dynamic Chart Titles Powered by `_MetaMeasures`**  
+> Modular DAX logic that adapts to slicer selections:
+> - Rideable Type  
+> - Day of Week  
+> - Start Hour  
+> - Member vs Casual  
+> Displayed via Card visuals for clarity and interactivity.
+
+### 🧪 Example Measure
+
+```DAX
+DynamicChartTitle = 
+"Ride Analysis for " & 
+IF(ISFILTERED('rides'[rideable_type]), SELECTEDVALUE('rides'[rideable_type]), "All Rideable Types") & 
+" on " & 
+IF(ISFILTERED('rides'[day_of_week]), SELECTEDVALUE('rides'[day_of_week]), "All Days") & 
+" during " & 
+IF(ISFILTERED('rides'[StartHour]), SELECTEDVALUE('rides'[StartHour]), "All Hours") & 
+" by " & 
+IF(ISFILTERED('rides'[member_casual]), SELECTEDVALUE('rides'[member_casual]), "All Rider Types")
+```
+
+> 🔍 Example Output: `"Ride Analysis for electric_bike on Saturday during 14 by casual"`
 
 ---
