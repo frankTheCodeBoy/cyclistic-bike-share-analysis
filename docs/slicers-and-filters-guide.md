@@ -175,17 +175,3 @@ This guide outlines how to enhance each visual in the Cyclistic dashboard with s
 - Consider grouping hours into time blocks (e.g., Morning, Afternoon, Evening).
 
 ---
-
-## 📦 Should This Document Be Included in Your Project Repo?
-
-**Absolutely yes.**  
-This markdown file serves as:
-
-- A **technical guide** for dashboard interactivity
-- A **stakeholder reference** for exploring insights
-- A **portfolio asset** showcasing your strategic thinking
-
-📁 **Suggested filename**: `slicers-and-filters-guide.md`  
-📂 **Suggested location**: Root of your Cyclistic project repo or inside `/docs/` folder
-
----
